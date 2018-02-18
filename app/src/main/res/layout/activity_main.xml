@@ -6,8 +6,8 @@
 
     <ImageView
         android:src="@drawable/party"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:scaleType="centerCrop"/>
 
     <TextView
@@ -16,20 +16,18 @@
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:fontFamily="sans-serif-light"
-        android:paddingTop="16dp"
-        android:paddingLeft="16dp"
+        android:padding="20dp"
         android:text="Happy Birthday Gulzar"
-        android:textColor="#ffffff"/>
+        android:textColor="@android:color/white"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="From, Jasveer!"
         android:fontFamily="sans-serif-light"
-        android:textColor="#ffffff"
+        android:textColor="@android:color/white"
         android:textSize="24sp"
-        android:paddingBottom="16dp"
-        android:paddingRight="16dp"
+        android:padding="20dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"/>
 
